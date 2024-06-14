@@ -1,0 +1,48 @@
+
+
+Inicialização e Clonagem
+git init - Inicializa um novo repositório Git no diretório atual.
+git clone <url> - Faz uma cópia de um repositório remoto para o diretório local.
+Status e Commit
+git status - Mostra o status dos arquivos no diretório de trabalho e na área de stage.
+git add <arquivo> - Adiciona um arquivo específico à área de stage.
+git add . - Adiciona todos os arquivos modificados e novos à área de stage.
+git commit -m "mensagem" - Comita as mudanças na área de stage com uma mensagem descritiva.
+
+Branches
+git branch - Lista todas as branches locais.
+git branch <nome-da-branch> - Cria uma nova branch.
+git checkout <nome-da-branch> - Muda para a branch especificada.
+git checkout -b <nome-da-branch> - Cria uma nova branch e muda para ela.
+git switch <nome-da-branch> - Alternativa moderna para mudar de branch.
+git switch -c <nome-da-branch> - Cria uma nova branch e muda para ela.
+git merge <nome-da-branch>- Mescla a branch especificada com a branch atual.
+git branch -d <nome-da-branch> - Deleta a branch especificada.
+
+Sincronização com Repositório Remoto
+git remote add <nome> <url> - Adiciona um repositório remoto.
+git fetch <nome-do-remoto> - Busca as mudanças do repositório remoto sem mesclá-las.
+git pull <nome-do-remoto> <nome-da-branch> - Busca e mescla as mudanças do repositório remoto na branch atual.
+git push <nome-do-remoto> <nome-da-branch> - Envia as mudanças locais para o repositório remoto.
+
+Manipulação de Arquivos
+git rm <arquivo> - Remove um arquivo e o adiciona à área de stage para remoção.
+git mv <arquivo-original> <novo-nome> - Renomeia um arquivo.
+
+Revertendo Mudanças
+git reset <arquivo> - Remove um arquivo da área de stage.
+git reset --hard <commit> - Reseta o repositório para um commit específico, descartando todas as mudanças posteriores.
+git revert <commit> - Cria um novo commit que desfaz as mudanças de um commit específico.
+
+Inspeção e Informações
+git log - Mostra o histórico de commits.
+git diff - Mostra as diferenças entre o diretório de trabalho e a área de stage.
+git show <commit> - Mostra detalhes sobre um commit específico.
+
+Configuração
+git config --global user.name "<nome>" - Define o nome de usuário global para todos os repositórios.
+git config --global user.email "<email>" - Define o e-mail global para todos os repositórios.
+
+Outros Comandos Úteis
+git stash - Salva temporariamente as mudanças não comitadas para que você possa mudar de branch sem comitá-las.
+git stash pop - Aplica as mudanças salvas mais recentemente no stash e as remove do stash

@@ -1,0 +1,1 @@
+Parte de configuração do ambiente para utilizar git e github.

@@ -1,0 +1,4 @@
+Conectar o Git ao GitHub envolve configurar suas credenciais, estabelecer uma conexão segura 
+(opcionalmente através de chaves SSH) e gerenciar o fluxo de trabalho entre seu repositório local e o 
+GitHub. Essa conexão facilita o trabalho colaborativo, o versionamento de código e o compartilhamento de 
+projetos com a comunidade.
